@@ -14,9 +14,15 @@ let isValid: boolean = true;
 
 console.log(`X :: ` + x + `\nY :: ` + y + `\nisValid :: ` + isValid);
 
-//let emp: employee = new Employee();
+class Employee {
+    private firstName: string = "";
+    private lastName: string = "";
+}
+
+let emp: Employee = new Employee();
 //OR
-//let emp = new Employee(); //automatic type reference
+let emp2 = new Employee(); //automatic type reference
+
 
 let j: any = 100;
 let k: any = "Hello typescript";
