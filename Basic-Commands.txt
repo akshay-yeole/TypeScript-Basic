@@ -1,0 +1,9 @@
+1. Install typescript
+    npm install -g typescript
+
+2. Check typescript version
+    tsc -v
+
+3. get path of installed tsc 
+    where tsc
+    
